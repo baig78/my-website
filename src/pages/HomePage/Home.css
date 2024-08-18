@@ -1,0 +1,14 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+  
+  .text-left {
+    width: 60%;
+  }
+  
+  .form-right {
+    width: 35%;
+  }
+  

@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './NavBar.css';
 
 const NavBar = () => {
   return (
-    <div style={styles.navBar}>
-      <div style={styles.title}>Website Title</div>
-      <div style={styles.links}>
+    <div className="nav-bar">
+      <div className="title">Website Title</div>
+      <div className="links">
         <Link to="/">Home</Link>
         <Link to="/about-us">About Us</Link>
         <Link to="/online-training">Online Training</Link>
@@ -14,23 +15,6 @@ const NavBar = () => {
       </div>
     </div>
   );
-};
-
-const styles = {
-  navBar: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    padding: '10px 20px',
-    backgroundColor: '#333',
-    color: '#fff',
-  },
-  title: {
-    fontSize: '24px',
-  },
-  links: {
-    display: 'flex',
-    gap: '15px',
-  },
 };
 
 export default NavBar;

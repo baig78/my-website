@@ -4,7 +4,7 @@ const ContentSection = () => {
   return (
     <div style={styles.section}>
       <div style={styles.textLeft}>
-        <h2>Section Title</h2>
+        <h2>Section Titlesds</h2>
         <p>Section description goes here.</p>
       </div>
       <div style={styles.formRight}>
